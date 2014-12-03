@@ -13,7 +13,7 @@ import javax.swing.JOptionPane;
  */
 public class Anagrama extends javax.swing.JFrame {
 
-    private String p;
+    private String[] p;
 
     /**
      * Creates new form ui
@@ -130,7 +130,7 @@ public class Anagrama extends javax.swing.JFrame {
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
-        if (jTextField3.getText().equalsIgnoreCase(p)) {
+        if (jTextField3.getText().equalsIgnoreCase(p[0])) {
             JOptionPane.showMessageDialog(null, "Acertou");
             doNovaPalavra();
         }
@@ -191,7 +191,8 @@ public class Anagrama extends javax.swing.JFrame {
     // End of variables declaration//GEN-END:variables
 private void doNovaPalavra() {
         p = Palavra.doGerarNovaPalavra();
-        jTextField1.setText(p);
+        
+        jTextField1.setText(p[1]);
         jTextField3.setText("");
 
     }
