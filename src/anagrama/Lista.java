@@ -11,23 +11,23 @@ package anagrama;
  */
 public class Lista{
     public static final String[] lista = {
-"dicionário",
-"oficial",
-"loquaz",
-"sinónimo",
-"displicente",
-"casa",
-"binómio",
-"faxina",
-"bética",
-"carão",
-"femicidio",
-"resiliência",
-"paradigma",
-"inerente",
-"concepção",
-"discriminar",
-"inconsútil"
+"Dicionário",
+"Oficial",
+"Loquaz",
+"Sinónimo",
+"Displicente",
+"Casa",
+"Binómio",
+"Faxina",
+"Bética",
+"Carão",
+"Femicidio",
+"Resiliência",
+"Paradigma",
+"Inerente",
+"Concepção",
+"Discriminar",
+"Inconsútil"
 };
 
     

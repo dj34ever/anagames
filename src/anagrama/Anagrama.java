@@ -45,6 +45,8 @@ public class Anagrama extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jTextField1.setEditable(false);
+
         jButton1.setText("Nova");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -63,9 +65,9 @@ public class Anagrama extends javax.swing.JFrame {
 
         jLabel2.setText("Tentativa");
 
-        jMenu1.setText("File");
+        jMenu1.setText("Ficheiro");
 
-        jMenuItem1.setText("Exit");
+        jMenuItem1.setText("Sair");
         jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jMenuItem1ActionPerformed(evt);
